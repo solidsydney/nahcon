@@ -1,0 +1,53 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fullname: MyString
+  residential_address: MyString
+  office_address: MyString
+  local_government: MyString
+  state_of_registration: MyString
+  date_of_birth: 2014-04-29
+  gender: MyString
+  marital_status: MyString
+  religion: MyString
+  nigeria_mobile_number: 1
+  saudi_mobile_number: MyString
+  educational_level: MyString
+  next_of_kin: MyString
+  relationship_with_next_of_kin: MyString
+  address_of_next_of_kin: MyString
+  name_and_address_of_muharram: MyString
+  type_of_pilgrim: MyString
+  pilgrim_id_number: MyString
+  national_id_number: MyString
+  passport_details: MyString
+  passport_number: MyString
+  passport_place: MyString
+  date_of_issue: 2014-04-29
+  expiry_date: 2014-04-29
+
+two:
+  fullname: MyString
+  residential_address: MyString
+  office_address: MyString
+  local_government: MyString
+  state_of_registration: MyString
+  date_of_birth: 2014-04-29
+  gender: MyString
+  marital_status: MyString
+  religion: MyString
+  nigeria_mobile_number: 1
+  saudi_mobile_number: MyString
+  educational_level: MyString
+  next_of_kin: MyString
+  relationship_with_next_of_kin: MyString
+  address_of_next_of_kin: MyString
+  name_and_address_of_muharram: MyString
+  type_of_pilgrim: MyString
+  pilgrim_id_number: MyString
+  national_id_number: MyString
+  passport_details: MyString
+  passport_number: MyString
+  passport_place: MyString
+  date_of_issue: 2014-04-29
+  expiry_date: 2014-04-29

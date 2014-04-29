@@ -1,0 +1,113 @@
+<%= form_for(@registration) do |f| %>
+  <% if @registration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@registration.errors.count, "error") %> prohibited this registration from being saved:</h2>
+
+      <ul>
+      <% @registration.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :fullname %><br>
+    <%= f.text_field :fullname %>
+  </div>
+  <div class="field">
+    <%= f.label :residential_address %><br>
+    <%= f.text_field :residential_address %>
+  </div>
+  <div class="field">
+    <%= f.label :office_address %><br>
+    <%= f.text_field :office_address %>
+  </div>
+  <div class="field">
+    <%= f.label :local_government %><br>
+    <%= f.text_field :local_government %>
+  </div>
+  <div class="field">
+    <%= f.label :state_of_registration %><br>
+    <%= f.text_field :state_of_registration %>
+  </div>
+  <div class="field">
+    <%= f.label :date_of_birth %><br>
+    <%= f.date_select :date_of_birth %>
+  </div>
+  <div class="field">
+    <%= f.label :gender %><br>
+    <%= f.text_field :gender %>
+  </div>
+  <div class="field">
+    <%= f.label :marital_status %><br>
+    <%= f.text_field :marital_status %>
+  </div>
+  <div class="field">
+    <%= f.label :religion %><br>
+    <%= f.text_field :religion %>
+  </div>
+  <div class="field">
+    <%= f.label :nigeria_mobile_number %><br>
+    <%= f.number_field :nigeria_mobile_number %>
+  </div>
+  <div class="field">
+    <%= f.label :saudi_mobile_number %><br>
+    <%= f.text_field :saudi_mobile_number %>
+  </div>
+  <div class="field">
+    <%= f.label :educational_level %><br>
+    <%= f.text_field :educational_level %>
+  </div>
+  <div class="field">
+    <%= f.label :next_of_kin %><br>
+    <%= f.text_field :next_of_kin %>
+  </div>
+  <div class="field">
+    <%= f.label :relationship_with_next_of_kin %><br>
+    <%= f.text_field :relationship_with_next_of_kin %>
+  </div>
+  <div class="field">
+    <%= f.label :address_of_next_of_kin %><br>
+    <%= f.text_field :address_of_next_of_kin %>
+  </div>
+  <div class="field">
+    <%= f.label :name_and_address_of_muharram %><br>
+    <%= f.text_field :name_and_address_of_muharram %>
+  </div>
+  <div class="field">
+    <%= f.label :type_of_pilgrim %><br>
+    <%= f.text_field :type_of_pilgrim %>
+  </div>
+  <div class="field">
+    <%= f.label :pilgrim_id_number %><br>
+    <%= f.text_field :pilgrim_id_number %>
+  </div>
+  <div class="field">
+    <%= f.label :national_id_number %><br>
+    <%= f.text_field :national_id_number %>
+  </div>
+  <div class="field">
+    <%= f.label :passport_details %><br>
+    <%= f.text_field :passport_details %>
+  </div>
+  <div class="field">
+    <%= f.label :passport_number %><br>
+    <%= f.text_field :passport_number %>
+  </div>
+  <div class="field">
+    <%= f.label :passport_place %><br>
+    <%= f.text_field :passport_place %>
+  </div>
+  <div class="field">
+    <%= f.label :date_of_issue %><br>
+    <%= f.date_select :date_of_issue %>
+  </div>
+  <div class="field">
+    <%= f.label :expiry_date %><br>
+    <%= f.date_select :expiry_date %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
